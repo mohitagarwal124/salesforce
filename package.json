@@ -1,0 +1,21 @@
+{
+  "name": "salesforce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "salesforce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohit Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-rate-limit": "^2.11.0",
+    "helmet": "^3.11.0",
+    "jsforce": "^1.8.0",
+    "nforce": "^1.10.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

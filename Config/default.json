@@ -1,0 +1,12 @@
+{
+    "PORT": 3000,
+    "SALESFORCE": {
+        "USERNAME": "mohit.agarwal124@gmail.com",
+        "TOKEN": "NzeVxqpGt3q1gtDYCFSrQ8Ar9",
+        "PASSWORD": "Mohit@124",
+        "LOGIN_URL": "https://login.salesforce.com",
+        "CONSUMER_KEY": "3MVG9d8..z.hDcPLiMHKmr1D0ns2rz1eWTgHmfBxw8ZDBp_6jQpDlOGQLcQM_3DXT91vM2aAE3kVZJtM0o0Vo",
+        "CONSUMER_SECRET": "4492221821119636435",
+        "URL": "https://localhost:3000/salesforce/oauth2"
+    }
+}

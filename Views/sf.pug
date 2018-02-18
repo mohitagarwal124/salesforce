@@ -1,0 +1,49 @@
+doctype html
+h3  /salesforce/login/auth
+form(action="/salesforce/login/auth", method="post")
+    | username :
+    input(type='text', name='username')
+    br
+    | password :
+    input(type='password', name='password')
+    br
+    br
+    input(type='submit', value='submit')
+    hr
+h3  /salesforce/login/direct
+form(action="/salesforce/login/direct", method="post")
+    | username :
+    input(type='text', name='username')
+    br
+    | password :
+    input(type='password', name='password')
+    br
+    | token :
+    input(type='password', name='token')
+    br
+    br
+    input(type='submit', value='submit')
+    hr    
+h3  /salesforce/account/insert
+form(action="salesforce/account/insert", method="post")
+    | name :
+    input(type='text', name='name')
+    br
+    br
+    input(type='submit', value='submit')
+    hr    
+h3  /salesforce/account/update
+form(action="salesforce/account/update", method="post")
+    | id :
+    input(type='text', name='id')
+    br
+    | name :
+    input(type='text', name='name')
+    br
+    br
+    input(type='submit', value='submit')
+    hr       
+h3  /salesforce/account/retrieve
+form(action="salesforce/account/retrieve", method="get")
+    input(type='submit', value='submit')
+    hr      
